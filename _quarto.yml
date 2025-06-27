@@ -1,0 +1,30 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Park Jae Hyun Publishing"
+  author: "jaeihyun"
+  date: "2025-06-27"
+  
+  chapters:
+    - index.qmd
+    - books.qmd
+    - books/book1.qmd
+    - books/book2.qmd
+    - blog.qmd
+    - blog/post1.qmd
+    - blog/post2.qmd
+    - wiki.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles/korean.css
+    lang: ko
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: false
+    code-tools: true
+    link-external-newwindow: true
